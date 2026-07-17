@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>StudentHub — Register</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header role="banner">
+    <h1><a href="index.html">StudentHub</a></h1>
+  </header>
+
+  <main id="main" role="main">
+    <h2>Register</h2>
+    <form action="#" method="post" aria-describedby="register-desc">
+      <p id="register-desc">Create a new account.</p>
+      <label for="name">Full name</label>
+      <input id="name" name="name" type="text" required>
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required>
+
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" required aria-describedby="pwd-help">
+      <div id="pwd-help">Use at least 8 characters.</div>
+
+      <button type="submit">Register</button>
+    </form>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2026 StudentHub</p>
+  </footer>
+</body>
+</html>
